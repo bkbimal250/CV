@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+  .marque{
+    margin-top: 2px;
+    padding: 5px;
+    background-color: chocolate;
+  }
+  </style>
+<div class="marque">
+      <marquee onmouseover="stop();" onmouseout="start();"> Welcome to Baapsap </marquee>
+    </div>
+      <h1> My Blogs</h1>
+
+      <style>
+        th{
+          text-decoration: none;
+          text-anchor: !important;
+        }
+      </style>
+
+<div class="table-responsive">
+  <table class="table border-1px">
+    <!-- <tr>
+      <th><a href="">English</th>
+      <th><a href="">story</th>
+      <th><a href="">Blogs videos</th>
+    </tr> -->
+    <td><a href=""><img src="/static/img/bim.jpeg"><h3> heading 3</h3>
+     </td>
+      <td><a href=""><img src="/static/img/bim.jpeg"><h3> heading 3</h3> 
+      </td>
+      <td><a href=""><img src="/static/img/bim.jpeg"><h3> heading 3</h3> 
+      </td>
+  </table>
+</div>
+{% endblock %} 

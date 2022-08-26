@@ -1,0 +1,63 @@
+
+.navbar{
+  position: fixed;
+  float:left;
+  padding: 8px;
+  padding: auto;
+  align-items: center;
+
+}
+
+
+li{
+  
+  float:left;
+  padding: 15px;
+  border-right: 1px solid hwb(226 5% 7% / 0.034)
+  
+}
+
+li a{
+  float: left;
+  color: greenyellow;
+  text-align: center;
+  text-decoration-color: black;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+li a:hover:not(.active) {
+  background-color:gold;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: silver;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.left{
+  padding:5px;
+  margin-right: auto;
+}
+
+
+table{
+  padding: 10px;
+  background-color: blueviolet;
+  text-align: center;
+  text-decoration: none;
+}
+
+tr{
+  padding: 10px;
+  background-color: aqua;
+}
